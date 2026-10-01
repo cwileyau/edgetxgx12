@@ -1,9 +1,9 @@
 semver: 2.12.4
 header: 
-   name: "v8_d"
+   name: "df95_d"
    modelId: 
       0:
-         val: 2
+         val: 1
 telemetryProtocol: 0
 thrTrim: 0
 noGlobalFunctions: 0
@@ -48,7 +48,7 @@ mixData:
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: 7
+   weight: 9
    offset: 0
    swtch: "NONE"
    delayUp: 0
@@ -65,7 +65,7 @@ mixData:
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: -7
+   weight: -9
    offset: 0
    swtch: "NONE"
    delayUp: 0
@@ -116,7 +116,7 @@ mixData:
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: 13
+   weight: 8
    offset: 0
    swtch: "NONE"
    delayUp: 0
@@ -203,12 +203,12 @@ limitData:
       curve: 0
       name: ""
    2:
-      min: 620
-      max: -510
+      min: 90
+      max: -100
       ppmCenter: 0
       offset: 0
       symetrical: 0
-      revert: 0
+      revert: 1
       curve: 0
       name: ""
 expoData: 
@@ -282,35 +282,6 @@ expoData:
    chn: 3
    flightModes: 000000000
    name: ""
-flightModeData: 
-   0:
-      trim: 
-         3:
-            value: 48
-            mode: 0
-      name: ""
-      swtch: "NONE"
-      fadeIn: 0
-      fadeOut: 0
-      gvars: 
-         0:
-            val: 0
-         1:
-            val: 0
-         2:
-            val: 0
-         3:
-            val: 0
-         4:
-            val: 0
-         5:
-            val: 0
-         6:
-            val: 0
-         7:
-            val: 0
-         8:
-            val: 0
 thrTraceSrc: Thr
 switchWarning: 
    SE:
@@ -651,6 +622,14 @@ screens:
                      val: tele(10)
                   1:
                      val: tele(6)
+   1:
+      type: VALUES
+      u: 
+         lines: 
+            0:
+               sources: 
+                  0:
+                     val: TX_GPS
 view: 0
 modelRegistrationID: "739025Q-"
 customSwitches: 
